@@ -78,8 +78,13 @@
 &gpio1 {
 	status = "okay";
 };
+
 &usbd {
 	status = "okay";
+};
+
+zephyr_udc0: &usbd {
+    status = "okay";
 };
 
 
