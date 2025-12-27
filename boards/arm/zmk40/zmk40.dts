@@ -79,7 +79,7 @@
 	};
 
 	vbatt {
-		compatible = "zmk,battery-nrf-vddh";
+		compatible = "zmk,battery-voltage-divider";
 		label = "BATTERY";
 		io-channels = <&adc 2>;
 		output-ohms = <2000000>;
