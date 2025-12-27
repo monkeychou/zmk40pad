@@ -21,13 +21,7 @@ endif # USB
 config BT_CTLR
 	default BT
 
-config ZMK_BLE
-	default y
-
-config ZMK_USB
-	default y
-
 config ZMK_BATTERY_VOLTAGE_DIVIDER
 	default y
 
-endif # BOARD_ISOMETRIA75_REV2
+endif # BOARD_ZMK40
