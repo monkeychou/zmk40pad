@@ -53,8 +53,8 @@
             RC(0,0) RC(4,0) RC(0,2) RC(0,3)
             RC(1,0) RC(1,1) RC(1,2) RC(1,3)
             RC(2,0) RC(2,1) RC(2,2) RC(2,3)
-            RC(3,0) RC(3,1)
-            //RC(4,0)
+            RC(3,0) RC(3,1) RC(3,2) RC(3,3)
+            RC(4,0) RC(4,1) RC(4,2) RC(4,3)
             >;
     };
 
@@ -68,7 +68,7 @@
         label = "LEFT_ENCODER";
         a-gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <24>;
+        steps = <12>;
     };
 
 	ext-power {
