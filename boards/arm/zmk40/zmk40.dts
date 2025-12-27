@@ -8,7 +8,7 @@
 #include <nordic/nrf52840_qiaa.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "zmk14-layouts.dtsi"
+#include "zmk40-layouts.dtsi"
 
 / {
 	model = "zmk40";
