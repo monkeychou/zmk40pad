@@ -61,6 +61,7 @@
 	sensors {
     	compatible = "zmk,keymap-sensors";
     	sensors = <&left_encoder>;
+        triggers-per-rotation = <60>;
 	};
 
 	left_encoder: encoder_left {
@@ -68,7 +69,7 @@
         label = "LEFT_ENCODER";
         a-gpios = <&gpio0 22 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         b-gpios = <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <12>;
+        steps = <30>;
     };
 
 	ext-power {
